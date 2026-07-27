@@ -1,0 +1,17 @@
+{
+  "name": "@cinatra-ai/web-research-skill",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Schema-driven web-research enrichment methodology — how to take a caller-supplied rows array plus a natural-language research prompt, verify and enrich each row with web_search only, capture per-URL reachability checks, and return a strict {enrichedRows, extractionNotes, failures, webChecks} envelope. Extracted from @cinatra-ai/web-research-agent (cinatra#2090).",
+  "type": "module",
+  "files": [
+    "skills"
+  ],
+  "cinatra": {
+    "apiVersion": "cinatra.ai/v1",
+    "kind": "skill",
+    "displayName": "Web Research Skill",
+    "skillRole": "injectable",
+    "dependencies": []
+  }
+}
